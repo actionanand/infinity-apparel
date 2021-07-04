@@ -12,6 +12,18 @@ What this means is that it no longer ships with a `service-worker.js` file
 npx create-react-app infinity-apparel --template cra-template-pwa
 ```
 
+### Installing `Node-Sass`
+
+1. Install node-sass
+```bash
+yarn add node-sass
+```
+2. Remove `yarn.lock` or `package-lock.json` and `node_modules` folder to resolve compatibility issue
+```bash
+rm -rf yarn.lock
+rm -rf node_modules/
+```
+
 ## Resources
 
 All the necessary resources related to react are included below
@@ -27,6 +39,10 @@ All the necessary resources related to react are included below
 
 1. [CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
 1. [Grid By Example](https://gridbyexample.com/what/)
+
+### Node Packages
+
+1. [Node Sass](https://www.npmjs.com/package/node-sass "Node Sass")
 
 ### React Study - Miscellaneous
 
