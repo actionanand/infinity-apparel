@@ -18,7 +18,7 @@ npx create-react-app infinity-apparel --template cra-template-pwa
 ```bash
 yarn add node-sass
 ```
-2. Remove `yarn.lock` or `package-lock.json` and `node_modules` folder to resolve compatibility issue
+2. Remove `yarn.lock` or `package-lock.json` and `node_modules` folder to *resolve react-scripts and babel jest version conflict*
 ```bash
 rm -rf yarn.lock
 rm -rf node_modules/
