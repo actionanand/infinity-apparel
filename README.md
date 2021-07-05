@@ -44,6 +44,7 @@ All the necessary resources related to react are included below
 ### Node Packages
 
 1. [Node Sass](https://www.npmjs.com/package/node-sass "Node Sass")
+1. [React Router Dom](https://www.npmjs.com/package/react-router-dom "React Router Dom - NPM Pkg")
 
 ### React Study - Miscellaneous
 
@@ -53,6 +54,7 @@ All the necessary resources related to react are included below
 1. [React SyntheticEvent](https://reactjs.org/docs/events.html "React SyntheticEvent")
 1. [Object Destructuring - MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#object_destructuring "Object Destructuring")
 1. [Events Bindingin React](https://reactjs.org/docs/handling-events.html "Handling Events in React")
+1. [React Router Dom - Docs](https://reactrouter.com/web/guides/quick-start "React Router Dom - Docs")
 
 ### Miscellaneous
 
@@ -60,5 +62,5 @@ All the necessary resources related to react are included below
 1. [JSON Placeholder - users](https://jsonplaceholder.typicode.com/users "JSON Placeholder - users")
 1. [Robohash - Image API](https://robohash.org/1?set=set2)
 1. [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en "React Developer Tools - Chrome Extension")
-1. [React - unPkg](https://unpkg.com/react@16.8.6/umd/react.development.js "React - unPkg react@16.8.6")
-1. [React DOM - unPkg](https://unpkg.com/react-dom@16.8.6/umd/react-dom.development.js "React DOM - unPkg react-dom@16.8.6")
+1. [React - unPkg (UMD Build)](https://unpkg.com/react@16.8.6/umd/react.development.js "React - unPkg react@16.8.6")
+1. [React DOM - unPkg (UMD Build)](https://unpkg.com/react-dom@16.8.6/umd/react-dom.development.js "React DOM - unPkg react-dom@16.8.6")
