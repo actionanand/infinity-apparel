@@ -46,6 +46,13 @@ All the necessary resources related to react are included below
 1. [Node Sass](https://www.npmjs.com/package/node-sass "Node Sass")
 1. [React Router Dom](https://www.npmjs.com/package/react-router-dom "React Router Dom - NPM Pkg")
 1. [Firebase](https://www.npmjs.com/package/firebase "Firebase NPM")
+1. [Redux](https://www.npmjs.com/package/redux)
+1. [React-Redux](https://www.npmjs.com/package/react-redux)
+1. [Redux-logger](https://www.npmjs.com/package/redux-logger)
+
+### Redux
+
+1. [Connect docs](https://react-redux.js.org/api/connect)
 
 ### React Study - Miscellaneous
 
