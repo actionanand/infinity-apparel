@@ -50,6 +50,7 @@ All the necessary resources related to react are included below
 1. [React-Redux](https://www.npmjs.com/package/react-redux)
 1. [Redux-logger](https://www.npmjs.com/package/redux-logger)
 1. [Reselect (Memoization ~ ~ ~ Caching lib)](https://www.npmjs.com/package/reselect "Memoization NPM lib - reselect")
+1. [Redux Persist](https://www.npmjs.com/package/redux-persist "Redux Persist")
 
 ### Redux
 
