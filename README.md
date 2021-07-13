@@ -51,6 +51,7 @@ All the necessary resources related to react are included below
 1. [Redux-logger](https://www.npmjs.com/package/redux-logger)
 1. [Reselect (Memoization ~ ~ ~ Caching lib)](https://www.npmjs.com/package/reselect "Memoization NPM lib - reselect")
 1. [Redux Persist](https://www.npmjs.com/package/redux-persist "Redux Persist")
+1. [lodash.memoize](https://www.npmjs.com/package/lodash.memoize "lodash.memoize")
 
 ### Redux
 
