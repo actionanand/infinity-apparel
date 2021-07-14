@@ -52,6 +52,7 @@ All the necessary resources related to react are included below
 1. [Reselect (Memoization ~ ~ ~ Caching lib)](https://www.npmjs.com/package/reselect "Memoization NPM lib - reselect")
 1. [Redux Persist](https://www.npmjs.com/package/redux-persist "Redux Persist")
 1. [lodash.memoize](https://www.npmjs.com/package/lodash.memoize "lodash.memoize")
+1. [React Stripe Checkout](https://www.npmjs.com/package/react-stripe-checkout "React Stripe Checkout - NPM")
 
 ### Redux
 
@@ -77,3 +78,4 @@ All the necessary resources related to react are included below
 1. [React - unPkg (UMD Build)](https://unpkg.com/react@16.8.6/umd/react.development.js "React - unPkg react@16.8.6")
 1. [React DOM - unPkg (UMD Build)](https://unpkg.com/react-dom@16.8.6/umd/react-dom.development.js "React DOM - unPkg react-dom@16.8.6")
 1. [UTF-8 Wingdings](https://www.w3schools.com/charsets/ref_utf_dingbats.asp "UTF-8 Wingdings - w3schools")
+1. [Stripe JS Doc](https://stripe.com/docs/stripe-js "Stripe JS Doc")
