@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/infinity-apparel/static/css/main.7705eb91.chunk.css",
-    "main.js": "/infinity-apparel/static/js/main.68fdcacc.chunk.js",
-    "main.js.map": "/infinity-apparel/static/js/main.68fdcacc.chunk.js.map",
+    "main.js": "/infinity-apparel/static/js/main.7289c6d6.chunk.js",
+    "main.js.map": "/infinity-apparel/static/js/main.7289c6d6.chunk.js.map",
     "runtime-main.js": "/infinity-apparel/static/js/runtime-main.1a1c5b42.js",
     "runtime-main.js.map": "/infinity-apparel/static/js/runtime-main.1a1c5b42.js.map",
     "static/js/2.6bab0612.chunk.js": "/infinity-apparel/static/js/2.6bab0612.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.1a1c5b42.js",
     "static/js/2.6bab0612.chunk.js",
     "static/css/main.7705eb91.chunk.css",
-    "static/js/main.68fdcacc.chunk.js"
+    "static/js/main.7289c6d6.chunk.js"
   ]
 }
