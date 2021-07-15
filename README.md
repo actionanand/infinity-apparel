@@ -79,3 +79,4 @@ All the necessary resources related to react are included below
 1. [React DOM - unPkg (UMD Build)](https://unpkg.com/react-dom@16.8.6/umd/react-dom.development.js "React DOM - unPkg react-dom@16.8.6")
 1. [UTF-8 Wingdings](https://www.w3schools.com/charsets/ref_utf_dingbats.asp "UTF-8 Wingdings - w3schools")
 1. [Stripe JS Doc](https://stripe.com/docs/stripe-js "Stripe JS Doc")
+1. [⚛️ Heroku Buildpack for create-react-app](https://github.com/mars/create-react-app-buildpack "⚛️ Heroku Buildpack for create-react-app: static hosting for React.js web apps")
