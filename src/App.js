@@ -2,6 +2,7 @@ import React from 'react';
 import { Route, Switch, Redirect } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { createStructuredSelector } from 'reselect';
+// import { BrowserRouter as Routergh } from 'react-router-dom';
 
 import './App.css';
 
@@ -51,10 +52,11 @@ class App extends React.Component {
       <div>
         <Header/>
         <Switch>
-          <Route exact path='/' component={HomePage} />
-          <Route path='/shop' component={ShopPage} />
-          <Route exact path='/checkout' component={CheckoutPage} />
-          <Route exact path='/signin' render={() => this.props.currentUser ? (<Redirect to='/' />) : (<SignInAndSignUp/>) } />
+          <Route exact path={process.env.PUBLIC_URL + '/'} component={HomePage} />
+          <Route path={process.env.PUBLIC_URL + '/shop'} component={ShopPage} />
+          <Route exact path={process.env.PUBLIC_URL + '/checkout'} component={CheckoutPage} />
+          <Route exact path={process.env.PUBLIC_URL + '/signin'} render={() => this.props.currentUser ? 
+            (<Redirect to={process.env.PUBLIC_URL + '/'} />) : (<SignInAndSignUp/>) } />
         </Switch>
       </div>
     );

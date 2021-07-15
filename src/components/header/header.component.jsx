@@ -15,21 +15,21 @@ import { selectHidden } from '../../redux/cart/cart.selectors';
 
 const Header = ({ currentUser, hidden }) => (
   <div className='header'>
-    <Link to='/' className='logo-container'>
+    <Link to={process.env.PUBLIC_URL + '/'} className='logo-container'>
       <Logo className='logo' />
     </Link>
     <div className='options'>
-      <Link className='option' to='/shop'>
+      <Link className='option' to={process.env.PUBLIC_URL + '/shop'}>
         SHOP
       </Link>
-      <Link className='option' to='/shop'>
+      <Link className='option' to={process.env.PUBLIC_URL + '/'}>
         CONTACT
       </Link>
       {
         currentUser ?
         <div className='option' onClick={() => auth.signOut()}> SIGN OUT </div>
         :
-        <Link className='option' to='/signin'>SIGN IN</Link>
+        <Link className='option' to={process.env.PUBLIC_URL + '/signin'}>SIGN IN</Link>
       }
       <CartIcon/>
     </div>

@@ -80,3 +80,9 @@ All the necessary resources related to react are included below
 1. [UTF-8 Wingdings](https://www.w3schools.com/charsets/ref_utf_dingbats.asp "UTF-8 Wingdings - w3schools")
 1. [Stripe JS Doc](https://stripe.com/docs/stripe-js "Stripe JS Doc")
 1. [⚛️ Heroku Buildpack for create-react-app](https://github.com/mars/create-react-app-buildpack "⚛️ Heroku Buildpack for create-react-app: static hosting for React.js web apps")
+
+### Create React App and GitHub page issues and solutions
+
+1. [How to publish CRA app to GitHub pages](https://github.com/gitname/react-gh-pages)
+1. [Gh-pages deployment problems with react-router](https://github.com/facebook/create-react-app/issues/1765)
+1. [So you want to host your Single Page React App on GitHub Pages?](https://itnext.io/so-you-want-to-host-your-single-age-react-app-on-github-pages-a826ab01e48)
