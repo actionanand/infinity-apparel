@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { createStructuredSelector } from 'reselect';
 
-import { ReactComponent as Logo } from '../../assets/crown.svg';
+// import { ReactComponent as Logo } from '../../assets/infinity-bw.svg';
+import { ReactComponent as Logo } from '../../assets/infinity-apparal.svg';
 import { auth } from '../../firebase/firebase.utils';
 
 import './header.styles.scss';

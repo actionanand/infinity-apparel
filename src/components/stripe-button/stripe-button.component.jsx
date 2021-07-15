@@ -6,7 +6,8 @@ import './stripe-button.styles.scss';
 const StripeCheckoutButton = ({ price }) => {
   const stripePrice = price * 100;
   const publishableKey = 'pk_test_gN49MdNHEwoummp7Ab7z15Mf';
-
+  const infinityApparalImg = 'https://bit.ly/iarnfinitylogp';
+  
   const onToken = token => {
     console.log(token);
     alert('Payment Successful');
@@ -19,7 +20,7 @@ const StripeCheckoutButton = ({ price }) => {
       label='Pay Now'
       billingAddress
       shippingAddress
-      image='https://sendeyo.com/up/d/f3eb2117da'
+      image= {infinityApparalImg}
       description={`Your total is $${price}`}
       amount={stripePrice}
       panelLabel='Pay Now'
