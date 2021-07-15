@@ -86,3 +86,4 @@ All the necessary resources related to react are included below
 1. [How to publish CRA app to GitHub pages](https://github.com/gitname/react-gh-pages)
 1. [Gh-pages deployment problems with react-router](https://github.com/facebook/create-react-app/issues/1765)
 1. [So you want to host your Single Page React App on GitHub Pages?](https://itnext.io/so-you-want-to-host-your-single-age-react-app-on-github-pages-a826ab01e48)
+1. [404 error page on re-load](https://kittygiraudel.com/2017/05/13/using-create-react-app-on-netlify/)
