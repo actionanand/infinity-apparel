@@ -40,6 +40,7 @@ All the necessary resources related to react are included below
 1. [CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
 1. [Grid By Example](https://gridbyexample.com/what/)
 1. [Cubic Bezier](https://developer.mozilla.org/en-US/docs/Web/CSS/easing-function "Cubic Bezier - MDN")
+1. [Styled Component](https://styled-components.com/ "Styled Component - NPM")
 
 ### Node Packages
 
