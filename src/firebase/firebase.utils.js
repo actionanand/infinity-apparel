@@ -47,6 +47,24 @@ export const addCollectionsAndDocuments = async (collectionKey, ObjectsToAdd) =>
   // return await batch.commit(); // un comment this to store the "items & title" of the "shop data" in firebase
 }
 
+export const convertSnapshotCollectionsToMap = collections => {
+  const transformedCollections = collections.docs.map(doc => {
+    const { title, items } = doc.data();
+
+    return {
+      routeName: encodeURI(title.toLowerCase()),
+      id: doc.id,
+      title,
+      items
+    }
+  });
+
+  return transformedCollections.reduce((accumulator, collection) => {
+    accumulator[collection.title.toLowerCase()] = collection;
+    return accumulator;
+  }, {});
+}
+
 export const auth = firebase.auth();
 export const firestore = firebase.firestore();
 
