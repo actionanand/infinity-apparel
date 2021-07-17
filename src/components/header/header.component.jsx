@@ -6,7 +6,6 @@ import { auth } from '../../firebase/firebase.utils';
 
 import { HeaderContainer, LogoContainer, OptionsContainer, OptionLink, LogoStyle } from './header.styles';
 
-import './header.styles.scss';
 import CartIcon from '../cart-icon/cart-icon.component';
 import CartDropdown from '../cart-dropdown/cart-dropdown.component';
 import { selectCurrentUser } from '../../redux/user/user.selectors';
