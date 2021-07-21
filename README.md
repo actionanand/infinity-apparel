@@ -54,6 +54,7 @@ All the necessary resources related to react are included below
 1. [Redux Persist](https://www.npmjs.com/package/redux-persist "Redux Persist")
 1. [lodash.memoize](https://www.npmjs.com/package/lodash.memoize "lodash.memoize")
 1. [React Stripe Checkout](https://www.npmjs.com/package/react-stripe-checkout "React Stripe Checkout - NPM")
+1. [Redux Thunk](https://www.npmjs.com/package/redux-thunk)
 
 ### Redux
 
