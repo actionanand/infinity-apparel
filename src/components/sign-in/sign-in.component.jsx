@@ -18,9 +18,9 @@ class SignIn extends React.Component {
 
   handleSubmit = async event => {
     event.preventDefault();
-    const { onEmailSignInStart } = this.props;
+    const { onStartingEmailSignIn } = this.props;
     const { email, password } = this.state;
-    onEmailSignInStart(email, password)
+    onStartingEmailSignIn(email, password)
   };
 
   handleChange = event => {
@@ -29,7 +29,7 @@ class SignIn extends React.Component {
   };
 
   render() {
-    const { onGoogleSignInStart } = this.props;
+    const { onStartingGoogleSignIn } = this.props;
     return (
       <SignInContainer>
         <TitleContainer> I already have an account </TitleContainer>
@@ -41,7 +41,7 @@ class SignIn extends React.Component {
           handleChange={this.handleChange} label='password' />
           <ButtonContainer>
             <CustomButton type='submit'> Sign In </CustomButton>
-            <CustomButton type='button' onClick={onGoogleSignInStart} isGoogleSignIn> Sign In with Google </CustomButton>
+            <CustomButton type='button' onClick={onStartingGoogleSignIn} isGoogleSignIn> Sign In with Google </CustomButton>
           </ButtonContainer>
         </form>
       </SignInContainer>
@@ -51,8 +51,8 @@ class SignIn extends React.Component {
 }
 
 const mapDispatchToProps = dispatch => ({
-  onGoogleSignInStart: () => dispatch(googleSignInStart()),
-  onEmailSignInStart: (email, password) => dispatch(emailSignInStart({email, password}))
+  onStartingGoogleSignIn: () => dispatch(googleSignInStart()),
+  onStartingEmailSignIn: (email, password) => dispatch(emailSignInStart({email, password}))
 });  
 
 export default connect(null, mapDispatchToProps)(SignIn);
