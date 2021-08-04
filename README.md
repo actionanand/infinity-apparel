@@ -40,6 +40,7 @@ All the necessary resources related to react are included below
 1. [CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
 1. [Grid By Example](https://gridbyexample.com/what/)
 1. [Cubic Bezier](https://developer.mozilla.org/en-US/docs/Web/CSS/easing-function "Cubic Bezier - MDN")
+1. [Styled Component](https://styled-components.com/ "Styled Component - NPM")
 
 ### Node Packages
 
@@ -53,6 +54,11 @@ All the necessary resources related to react are included below
 1. [Redux Persist](https://www.npmjs.com/package/redux-persist "Redux Persist")
 1. [lodash.memoize](https://www.npmjs.com/package/lodash.memoize "lodash.memoize")
 1. [React Stripe Checkout](https://www.npmjs.com/package/react-stripe-checkout "React Stripe Checkout - NPM")
+1. [Redux Thunk](https://www.npmjs.com/package/redux-thunk)
+1. [Redux Saga](https://www.npmjs.com/package/redux-saga "redux saga")
+1. [Stripe Node js Lib](https://www.npmjs.com/package/stripe "Stripe Node js Lib")
+1. [Axios - npm](https://www.npmjs.com/package/axios "Axios - npm")
+1. [Fetch Post Doc](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch#supplying_request_options "Fetch api - post document")
 
 ### Redux
 
@@ -80,3 +86,5 @@ All the necessary resources related to react are included below
 1. [UTF-8 Wingdings](https://www.w3schools.com/charsets/ref_utf_dingbats.asp "UTF-8 Wingdings - w3schools")
 1. [Stripe JS Doc](https://stripe.com/docs/stripe-js "Stripe JS Doc")
 1. [⚛️ Heroku Buildpack for create-react-app](https://github.com/mars/create-react-app-buildpack "⚛️ Heroku Buildpack for create-react-app: static hosting for React.js web apps")
+1. [Firebase Batch Doc](https://firebase.google.com/docs/firestore/manage-data/transactions "Firebase Batch Doc")
+1. [Generator Function*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*, "Generator Function* - mdn")
