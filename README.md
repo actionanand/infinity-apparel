@@ -68,6 +68,7 @@ All the necessary resources related to react are included below
 1. [Events Bindingin React](https://reactjs.org/docs/handling-events.html "Handling Events in React")
 1. [React Router Dom - Docs](https://reactrouter.com/web/guides/quick-start "React Router Dom - Docs")
 1. [Adding Images, Fonts, and Files](https://create-react-app.dev/docs/adding-images-fonts-and-files/ "Adding Images, Fonts, and Files in react app")
+1. [Context API](https://reactjs.org/docs/context.html "Context API")
 
 ### Miscellaneous
 
