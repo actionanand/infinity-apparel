@@ -13,11 +13,8 @@ import CurrentUserContext from './contexts/current-user/current-user.context';
 
 
 class App extends React.Component {
-  constructor() {
-    super();
-    this.state = {
-      currentUser: null
-    };
+  state = {
+    currentUser: null
   }
 
   unsubscribeFromAuth = null;
