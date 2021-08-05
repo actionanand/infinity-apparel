@@ -82,3 +82,4 @@ All the necessary resources related to react are included below
 1. [UTF-8 Wingdings](https://www.w3schools.com/charsets/ref_utf_dingbats.asp "UTF-8 Wingdings - w3schools")
 1. [Stripe JS Doc](https://stripe.com/docs/stripe-js "Stripe JS Doc")
 1. [⚛️ Heroku Buildpack for create-react-app](https://github.com/mars/create-react-app-buildpack "⚛️ Heroku Buildpack for create-react-app: static hosting for React.js web apps")
+1. [Cloud Shell Doc](https://cloud.google.com/shell/docs?ref=terminal "Cloud Shell Doc")
