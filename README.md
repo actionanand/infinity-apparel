@@ -53,6 +53,9 @@ All the necessary resources related to react are included below
 1. [Redux Persist](https://www.npmjs.com/package/redux-persist "Redux Persist")
 1. [lodash.memoize](https://www.npmjs.com/package/lodash.memoize "lodash.memoize")
 1. [React Stripe Checkout](https://www.npmjs.com/package/react-stripe-checkout "React Stripe Checkout - NPM")
+1. [Apollo Boost](https://www.npmjs.com/package/apollo-boost "Apollo Boost - NPM")
+1. [React Apollo](https://www.npmjs.com/package/react-apollo "React Apollo - NPM")
+1. [GraphQL](https://www.npmjs.com/package/graphql "GraphQL - NPM")
 
 ### Redux
 
@@ -69,6 +72,27 @@ All the necessary resources related to react are included below
 1. [React Router Dom - Docs](https://reactrouter.com/web/guides/quick-start "React Router Dom - Docs")
 1. [Adding Images, Fonts, and Files](https://create-react-app.dev/docs/adding-images-fonts-and-files/ "Adding Images, Fonts, and Files in react app")
 
+### GraphGL
+
+1. [GraphQL](https://graphql.org/ "GraphQL")
+2. [GraphQL Playground - Crown Clothing](https://crwn-clothing.com/ "GraphQL Playground - Crown Clothing")
+    + After Opening the above link, click on `gaer box symbol` at right top corner to open settings page and change the value of `schema.disableComments` on line 12 from `true` to `false` as below:
+    ```json
+      "schema.disableComments": false
+    ```
+3. [Basic GraphGQ types](https://graphql.org/graphql-js/basic-types/ "Basic GraphGQ types - Doc")
+4. [Apollo - Doc](https://www.apollographql.com/docs/react/ "Apollo - official Doc")
+5. [Apollo Client cache](https://www.apollographql.com/docs/react/caching/cache-configuration/ "Apollo Client cache - Official Doc")
+6. [Resolvers](https://www.apollographql.com/docs/apollo-server/data/resolvers/ "Doc on resolvers")
+
+### GraphQL - Backend
+
+1. [Prisma](https://www.prisma.io/ "prisma Official Doc")
+1. [Hasura](https://hasura.io/ "Hasura official Doc")
+1. [Apollo Server](https://www.apollographql.com/docs/apollo-server/ "Apollo Server Doc")
+1. [Quick way to build a GraphQL server: graphql-yoga](https://github.com/dotansimha/graphql-yoga "Quick way to build a GraphQL server: graphql-yoga - GitHub Page")
+1. [A quick step by step guide on how to set up your own GraphQL server](https://www.apollographql.com/docs/tutorial/introduction/ "A quick step by step guide on how to set up your own GraphQL server - Official apollographql doc")
+
 ### Miscellaneous
 
 1. [React Sandbox](https://codesandbox.io/s/new)
@@ -80,3 +104,4 @@ All the necessary resources related to react are included below
 1. [UTF-8 Wingdings](https://www.w3schools.com/charsets/ref_utf_dingbats.asp "UTF-8 Wingdings - w3schools")
 1. [Stripe JS Doc](https://stripe.com/docs/stripe-js "Stripe JS Doc")
 1. [⚛️ Heroku Buildpack for create-react-app](https://github.com/mars/create-react-app-buildpack "⚛️ Heroku Buildpack for create-react-app: static hosting for React.js web apps")
+1. [Importing defaults](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import#importing_defaults "importing defaults - MDN")
