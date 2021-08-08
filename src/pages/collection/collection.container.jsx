@@ -7,24 +7,22 @@ import CollectionPage from './collection.component';
 
 
 const GET_COLLECTION_BY_TITLE = gql`
-  {
-    query getCollectionsByTitle($title: string!) {
-      getCollectionsByTitle(title: $title) {
+  query getCollectionsByTitle($title: String!) {
+    getCollectionsByTitle(title: $title) {
+      id
+      title
+      items {
         id
-        title
-        items {
-          id
-          name
-          price
-          imageUrl
-        }
+        name
+        price
+        imageUrl
       }
     }
   }
 `;
 
 const CollectionPageContainer = ({ match }) => (
-  <Query query={ GET_COLLECTION_BY_TITLE } variables={{ title: match.params.collectionID }}>
+  <Query query={ GET_COLLECTION_BY_TITLE } variables={{ title: match.params.collectionId }}>
     {
       ({ loading, data }) => {
         if (loading) return <Spinner/>
