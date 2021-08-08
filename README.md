@@ -84,6 +84,7 @@ All the necessary resources related to react are included below
 4. [Apollo - Doc](https://www.apollographql.com/docs/react/ "Apollo - official Doc")
 5. [Apollo Client cache](https://www.apollographql.com/docs/react/caching/cache-configuration/ "Apollo Client cache - Official Doc")
 6. [Resolvers](https://www.apollographql.com/docs/apollo-server/data/resolvers/ "Doc on resolvers")
+7. [Apollo Mutations with Hooks - useMutation](https://www.apollographql.com/docs/react/data/mutations/ "Apollo Mutations with Hooks - useMutation Doc")
 
 ### GraphQL - Backend
 
