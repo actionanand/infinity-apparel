@@ -8,7 +8,7 @@ import { auth } from '../../firebase/firebase.utils';
 
 import './header.styles.scss';
 import { default as CartIcon } from '../cart-icon/cart-icon.container';
-import CartDropdown from '../cart-dropdown/cart-dropdown.component';
+import { default as CartDropdown } from '../cart-dropdown/cart-dropdown.container';
 import { selectCurrentUser } from '../../redux/user/user.selectors';
 
 const Header = ({ currentUser, hidden }) => (
