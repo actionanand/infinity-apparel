@@ -85,6 +85,7 @@ All the necessary resources related to react are included below
 5. [Apollo Client cache](https://www.apollographql.com/docs/react/caching/cache-configuration/ "Apollo Client cache - Official Doc")
 6. [Resolvers](https://www.apollographql.com/docs/apollo-server/data/resolvers/ "Doc on resolvers")
 7. [Apollo Mutations with Hooks - useMutation](https://www.apollographql.com/docs/react/data/mutations/ "Apollo Mutations with Hooks - useMutation Doc")
+8. [Removal of `compose`](https://github.com/apollographql/react-apollo/issues/3330 "compose removed from react-apollo from react-apollo@3.0.0")
 
 ### GraphQL - Backend
 
