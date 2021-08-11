@@ -86,6 +86,10 @@ All the necessary resources related to react are included below
 6. [Resolvers](https://www.apollographql.com/docs/apollo-server/data/resolvers/ "Doc on resolvers")
 7. [Apollo Mutations with Hooks - useMutation](https://www.apollographql.com/docs/react/data/mutations/ "Apollo Mutations with Hooks - useMutation Doc")
 8. [Removal of `compose`](https://github.com/apollographql/react-apollo/issues/3330 "compose removed from react-apollo from react-apollo@3.0.0")
+9. [Cache persistence for Apollo Client 2.0](https://www.apollographql.com/blog/community/announcing-apollo-cache-persist-cb05aec16325/ "Cache persistence for Apollo Client 2.0")
+10. [React GraphQL(apollo) HOC - the-config-object](https://www.apollographql.com/docs/react/api/react/hoc/#the-config-object "React GraphQL(apollo) HOC - the-config-object Official doc")
+11. [When, Why, and How to Use GraphQL with Apollo Client in React](https://rubygarage.org/blog/graphql-in-react-with-apollo-client "Rubygarage doc on react apollo")
+
 
 ### GraphQL - Backend
 
@@ -107,3 +111,6 @@ All the necessary resources related to react are included below
 1. [Stripe JS Doc](https://stripe.com/docs/stripe-js "Stripe JS Doc")
 1. [⚛️ Heroku Buildpack for create-react-app](https://github.com/mars/create-react-app-buildpack "⚛️ Heroku Buildpack for create-react-app: static hosting for React.js web apps")
 1. [Importing defaults](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import#importing_defaults "importing defaults - MDN")
+
+### Full GraphQL solution code
+* [Full GraphQL solution code - gitHub](https://github.com/ZhangMYihua/graphql-practice-complete "Full GraphQL solution code - gitHub")
