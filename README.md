@@ -88,6 +88,8 @@ All the necessary resources related to react are included below
 1. [⚛️ Heroku Buildpack for create-react-app](https://github.com/mars/create-react-app-buildpack "⚛️ Heroku Buildpack for create-react-app: static hosting for React.js web apps")
 1. [Firebase Batch Doc](https://firebase.google.com/docs/firestore/manage-data/transactions "Firebase Batch Doc")
 1. [Generator Function*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*, "Generator Function* - mdn")
+1. [Media Query](https://developer.mozilla.org/en-US/docs/Web/CSS/@media "Media Query - mdn")
+1. [Cheatsheet - css grid](https://css-tricks.com/snippets/css/complete-guide-grid/ "A Complete Guide to Grid - CSS Tricks")
 
 ## Set your stripe publishable key 
 
