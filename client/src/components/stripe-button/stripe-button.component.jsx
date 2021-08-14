@@ -6,7 +6,7 @@ import axios from 'axios';
 const StripeCheckoutButton = ({ price }) => {
   const stripePrice = price * 100;
   const publishableKey = 'pk_test_gN49MdNHEwoummp7Ab7z15Mf';
-  const infinityApparalImg = 'https://bit.ly/iarnfinitylogp';
+  const infinityApparalImg = 'https://i.postimg.cc/wv55hW8M/infinity-apparel.png';
   
   const onToken = token => {
     axios({
