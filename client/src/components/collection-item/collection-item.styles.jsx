@@ -20,6 +20,20 @@ export const CollectionItemContainer = styled.div`
       opacity: 0.8;
     }
   }
+
+  @media screen and (max-width: 800px) {
+    width: 40vw;
+
+    &:hover {
+      button {
+        opacity: unset;
+      }
+
+      .collection-item-img {
+        opacity: unset;
+      }
+    }
+  }
 `;
 
 export const ImageContainer = styled.div`
@@ -37,6 +51,13 @@ export const AddToCartButton = styled(CustomButton)`
   position: absolute;
   top: 255px;
   display: none;
+
+  @media screen and (max-width: 800px) {
+    display: block;
+    opacity: 0.9;
+    min-width: unset;
+    padding: 0 10px;
+  }
 `;
 
 export const CollectionFooterContainer = styled.div`
