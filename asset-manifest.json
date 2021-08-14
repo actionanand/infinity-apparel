@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/infinity-apparel/static/css/main.7705eb91.chunk.css",
+    "main.css": "/infinity-apparel/static/css/main.c1092445.chunk.css",
     "main.js": "/infinity-apparel/static/js/main.7289c6d6.chunk.js",
     "main.js.map": "/infinity-apparel/static/js/main.7289c6d6.chunk.js.map",
     "runtime-main.js": "/infinity-apparel/static/js/runtime-main.1a1c5b42.js",
@@ -10,7 +10,7 @@
     "index.html": "/infinity-apparel/index.html",
     "service-worker.js": "/infinity-apparel/service-worker.js",
     "service-worker.js.map": "/infinity-apparel/service-worker.js.map",
-    "static/css/main.7705eb91.chunk.css.map": "/infinity-apparel/static/css/main.7705eb91.chunk.css.map",
+    "static/css/main.c1092445.chunk.css.map": "/infinity-apparel/static/css/main.c1092445.chunk.css.map",
     "static/js/2.6bab0612.chunk.js.LICENSE.txt": "/infinity-apparel/static/js/2.6bab0612.chunk.js.LICENSE.txt",
     "static/media/infinity-apparal.d0991ef1.svg": "/infinity-apparel/static/media/infinity-apparal.d0991ef1.svg",
     "static/media/shopping-bag.a688874f.svg": "/infinity-apparel/static/media/shopping-bag.a688874f.svg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.1a1c5b42.js",
     "static/js/2.6bab0612.chunk.js",
-    "static/css/main.7705eb91.chunk.css",
+    "static/css/main.c1092445.chunk.css",
     "static/js/main.7289c6d6.chunk.js"
   ]
 }
