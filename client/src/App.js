@@ -1,12 +1,10 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, lazy, Suspense } from 'react';
 import { Route, Switch, Redirect } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { createStructuredSelector } from 'reselect';
 
 import { GlobalStyle } from './global.styles';
 
-
-import HomePage from './pages/homepage/homepage.component';
 import ShopPage from './pages/shop/shop.component';
 import CheckoutPage from './pages/checkout/checkout.component';
 import Header from './components/header/header.component';
@@ -14,6 +12,8 @@ import SignInAndSignUp from './pages/sign-in-and-sign-up/sign-in-and-sign-up.com
 import { selectCurrentUser } from './redux/user/user.selectors';
 import { checkUserSession } from './redux/user/user.actions';
 
+
+const HomePage = lazy(() => import('./pages/homepage/homepage.component'));
 
 const App = ({ onCheckingUserSession, currentUser }) => {
   useEffect(() => {
@@ -25,7 +25,9 @@ const App = ({ onCheckingUserSession, currentUser }) => {
       <GlobalStyle/>
       <Header/>
       <Switch>
-        <Route exact path='/' component={HomePage} />
+        <Suspense fallback={ <div>Loading...</div> }>
+          <Route exact path='/' component={HomePage} />
+        </Suspense>
         <Route path='/shop' component={ShopPage} />
         <Route exact path='/checkout' component={CheckoutPage} />
         <Route exact path='/signin' render={() => currentUser ? (<Redirect to='/' />) : (<SignInAndSignUp/>) } />
