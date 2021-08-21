@@ -59,6 +59,7 @@ All the necessary resources related to react are included below
 1. [Stripe Node js Lib](https://www.npmjs.com/package/stripe "Stripe Node js Lib")
 1. [Axios - npm](https://www.npmjs.com/package/axios "Axios - npm")
 1. [Fetch Post Doc](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch#supplying_request_options "Fetch api - post document")
+1. [GZip - compression](https://www.npmjs.com/package/compression "GZip - compression npm")
 
 ### Redux
 
