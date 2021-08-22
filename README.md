@@ -59,6 +59,8 @@ All the necessary resources related to react are included below
 1. [Stripe Node js Lib](https://www.npmjs.com/package/stripe "Stripe Node js Lib")
 1. [Axios - npm](https://www.npmjs.com/package/axios "Axios - npm")
 1. [Fetch Post Doc](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch#supplying_request_options "Fetch api - post document")
+1. [GZip - compression](https://www.npmjs.com/package/compression "GZip - compression npm")
+1. [express-sslify](https://www.npmjs.com/package/express-sslify "express-sslify : to enforce http to https")
 
 ### Redux
 
@@ -81,6 +83,8 @@ All the necessary resources related to react are included below
 1. [JSON Placeholder - users](https://jsonplaceholder.typicode.com/users "JSON Placeholder - users")
 1. [Robohash - Image API](https://robohash.org/1?set=set2)
 1. [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en "React Developer Tools - Chrome Extension")
+1. [Profiler](https://reactjs.org/docs/profiler.html#usage "Profiler Official doc")
+1. [React Performance Cheat Sheet](https://houssein.me/progressive-react "React Performance Cheat Sheet")
 1. [React - unPkg (UMD Build)](https://unpkg.com/react@16.8.6/umd/react.development.js "React - unPkg react@16.8.6")
 1. [React DOM - unPkg (UMD Build)](https://unpkg.com/react-dom@16.8.6/umd/react-dom.development.js "React DOM - unPkg react-dom@16.8.6")
 1. [UTF-8 Wingdings](https://www.w3schools.com/charsets/ref_utf_dingbats.asp "UTF-8 Wingdings - w3schools")
