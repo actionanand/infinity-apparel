@@ -60,6 +60,7 @@ All the necessary resources related to react are included below
 1. [Axios - npm](https://www.npmjs.com/package/axios "Axios - npm")
 1. [Fetch Post Doc](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch#supplying_request_options "Fetch api - post document")
 1. [GZip - compression](https://www.npmjs.com/package/compression "GZip - compression npm")
+1. [express-sslify](https://www.npmjs.com/package/express-sslify "express-sslify : to enforce http to https")
 
 ### Redux
 
